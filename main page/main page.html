@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main page.css" />
+  </head>
+  <body>
+    <header>
+      <!-- nav bar area -->
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <img src="logo.png" alt="לוגו עיריית חולון" class="logo-navbar" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="main page.html"
+                  >דף הבית</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about page/about.html">אודות</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../media page/media.html">מדיה</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../faq page/faq.html"
+                  >שאלות ותשובות
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact page/contact.html"
+                  >יצירת קשר
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main area -->
+    <main class="main-part">
+      <h1 class="first-heading">העדלאידע חולון</h1>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="picture1-mardi-grass.jpg"
+              class="d-block w-100"
+              alt="men is wearing a mask in the mardi-grass"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>משתתף במצעד מרדי-גראס חובש מסיכה ותחפוסת מיוחדים.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="picture2-mardi-grass.jpg"
+              class="d-block w-100"
+              alt="some masks for sale"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>קולקציית מסכות שמוצגת לעוברים ולשבים במצעד מרדי-גראס</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="picture3-mardi-grass.jpg"
+              class="d-block w-100"
+              alt="A custom designed mask by mardi-grass"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>מסכה בעיצוב אישי של מרדי מרדי-גראס</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="picture4-mardi-grass.jpg"
+              class="d-block w-100"
+              alt="some girls wearing a masks in mardi mardi-grass"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>
+                שלוש בחורות משתתפות בתהלוכת מרדי-גראס ולובשות מסכות באווירת
+                התהלוכה
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="picture5-mardi-grass.jpg"
+              class="d-block w-100"
+              alt="A custom designed mask by mardi-grass"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p>בחורה מציגה מסכה בעיצוב מיוחד עם קרניים מעוצבות</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="first-para">
+        <h2>מצעד עדלאידע חולון</h2>
+        <p>
+          העדלאידע של חולון, שצועדת כבר קרוב ל-3 עשורים, היא סמל בשגרת הפורים של
+          ילדי העיר וילדי ישראל מידי שנה מגיעים ילדים ובני נוער והוריהם מכל רחבי
+          העיר חולון והארץ כולה לחגוג את אווירת פורים באירוע החגיגי. הערייה
+          מתקצבת את המצעד בסכומי כסף נכבדים על פי ההערכות עלות העדלאידע בעיר
+          נאמדת בסדר גודל של 1.9 מיליון שקלים פלוס סידורי אבטחה בעלות של 800000
+          שח ,את העלויות העריך מנכל הערייה במענה לתושבים . כל זאת מעיד על הערך
+          הרב והתרומה הרבה של העדלאידע הנתפסת גם בעיני הערייה וגם בעיניי רוב
+          התושבים בעיר
+        </p>
+      </div>
+
+      <legend></legend>
+      <h3>שבעת החברות הממנות את המצעד בחולון</h3>
+      <div class="companies-explanation">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/logo-meyeden.png"
+            class="card-img-top"
+            alt="logo-mey-eden"
+          />
+          <div class="card-body">
+            <h5 class="card-title">חברת מי עדן</h5>
+            <p class="card-text">
+              מי עדן הוא מותג מים מינרליים בשמו משווקים מאז 1983 מים מינרליים
+              ממעיין סלוקיה שברמת הגולן . .המפעל של מי עדן שוכן בקצרין
+            </p>
+            <a href="https://www.meyeden.co.il/" class="btn btn-primary"
+              >אתר החברה</a
+            >
+            <br />
+            <br />
+
+            <a href="/companies/mey eden.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/goldstar logo2.jpg"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">בירת גולדסטאר</h5>
+            <p class="card-text">
+              בירת גולדסטאר היא בירת לאגר ישראלית המכילה 4.9% אלכוהול .הבירה
+              הושקה לראשונה בשנת 1950 והיא מיוצרת כיום במפעלי טמפו בנתניה
+            </p>
+            <a
+              href="https://www.facebook.com/goldstarbeer"
+              class="btn btn-primary"
+              >דף הפייסבוק של החברה
+            </a>
+            <br />
+            <br />
+
+            <a href="/companies/goldstar.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/logo-burger.png"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">בורגראנץ</h5>
+            <p class="card-text">
+              בורגראנץ' היא רשת מזון מהיר ישראלית, המציעה בעיקר ארוחות המבורגר
+              הכוללות מנת המבורגר בלחמנייה עם שתייה ותוספות שונות בבעלות החברה
+              כ64 סניפים שמפוזרים ברחבי המדינה
+            </p>
+            <a
+              href="https://app.burgeranch.co.il/menu/?gclid=Cj0KCQjw8amWBhCYARIsADqZJoUvFQGO6ARGqEyz8tdYYveHM0YcXzBgRPs1Q-NdnKh6Ixm-3ge9sj8aAvlBEALw_wcB#%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA"
+              class="btn btn-primary"
+              >אתר החברה</a
+            >
+            <br />
+            <br />
+
+            <a href="/companies/goldstar.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/pizza tarshis-logo.jpg"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">פיצה תרשיש</h5>
+            <p class="card-text">
+              .פיצה תרשיש היא מסעדה איטלקית בעלת מנות מיוחדות ומגוונות .המסעדה
+              ממוקמת בעיר חולון .מנת הדגל של המסעדה היא פיצה שעשויה מ 100% גבינת
+              מוצרלה
+            </p>
+
+            <a
+              href="https://www.facebook.com/hillazvia/"
+              class="btn btn-primary"
+              >דף הפייסבוק של המסעדה
+            </a>
+            <br />
+            <br />
+
+            <a href="/companies/pizza tarshis.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/logo-azrieli.jpg"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">קבוצת עזריאלי</h5>
+            <p class="card-text">
+              .קבוצת עזריאלי היא חברת הנדל"ן הציבורית הנחשבת כאחת מהגדולות
+              בישראל החברה בונה, מפעילה ומתחזקת נכסים מגוונים ברחבי הארץ וגם
+              בחוץ לארץ, ובהם מתחמי משרדים, קניונים, בתי דיור מוגן, דאטה סנטרס
+              וכו .קבוצת עזריאלי היא חברה ציבורית שמדווחת על הכנסות של קרוב ל1.6
+              מילארד שח בשנה מה שמציב אותה אחת מהחברות הגדולות בישראל
+            </p>
+
+            <a href="https://www.azrieligroup.com/he/" class="btn btn-primary"
+              >אתר החברה</a
+            >
+            <br />
+            <br />
+
+            <a href="/companies/azrieli grop.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/logo-spathotel.png"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">ספאט חולון</h5>
+            <p class="card-text">
+              .מלון ספאט חולון ממוקם בעיר חולון בכניסה למלון יש דלפק קבלה שפועל
+              24 שעות ביממה כמו כן המלון מציע בר, אינטרנט אלחוטי חינם וגם חניה
+              .פרטית ללא תשלום לאורחים .המלון ממוקם במיקום מעולה גם מבחינת
+              קירבתו לחופי הים הפופולרים באזור
+            </p>
+
+            <a href="https://www.spathotels.com/" class="btn btn-primary"
+              >אתר רשת המלונות ספאט הוטל</a
+            >
+            <br />
+            <br />
+
+            <a href="/companies/spat hotel.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./photos of the logos companies/logo-osem.png"
+            class="card-img-top"
+            alt="logo-goldstar"
+          />
+          <div class="card-body">
+            <h5 class="card-title">חברת אסם</h5>
+            <p class="card-text">
+              חברת אסם או בשמה המלא אֹסֶם השקעות בע"מ היא קבוצת חברות מזון
+              ישראלית גדולה, הנשלטת על ידי תאגיד המזון השווייצרי נסטלה המחזיק
+              ב-100% ממניותיה החברה נחשבת פופולרית מאוד בקרב הצרכן הישראלי ובין
+              היתר משווקת טמייצרת את המוצר הפופלרי:במבה של אסם ועוד מגוון מוצרים
+              .אהובים
+            </p>
+
+            <a href="https://www.osem-nestle.co.il/" class="btn btn-primary"
+              >אתר החברה</a
+            >
+            <br />
+            <br />
+
+            <a href="/companies/osem.html" class="btn btn-primary"
+              >הסבר מפורט על החברה</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer  area-->
+    <footer class="text-center text-lg-start bg-black text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>עקבו אחרינו ברשתות החברתיות</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="https://www.facebook.com/holon.muni" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/holon.muni/"
+            class="me-4 text-reset"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </section>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">העדלאידע חולון</h6>
+              <p>
+                <a href="../about page/about.html" class="text-reset">אודות</a>
+              </p>
+              <p>
+                <a
+                  href="/companies/photos of the companies/logos of the companies.png"
+                  class="text-reset"
+                  >הממנים</a
+                >
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">עזרה</h6>
+              <p>
+                <a href="../contact page/contact.html" class="text-reset"
+                  >יצירת קשר</a
+                >
+              </p>
+              <p>
+                <a href="../faq page/faq.html" class="text-reset"
+                  >שאלות ותשובות
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="#">dor shaked</a>
+      </div>
+    </footer>
+  </body>
+</html>

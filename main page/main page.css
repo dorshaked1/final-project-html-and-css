@@ -1,0 +1,43 @@
+body {
+  direction: rtl;
+}
+/* header area */
+.logo-navbar {
+  width: 200px;
+  height: 100px;
+}
+.navbar {
+  height: 100px;
+  margin-bottom: 50px;
+}
+.first-heading {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #9453a6;
+}
+@media only screen and (max-width: 297px) {
+  .navbar-toggler {
+    position: absolute;
+    left: -1%;
+    bottom: 1%;
+  }
+}
+
+/* main area */
+.main-part {
+  margin-top: 250px;
+}
+#carouselExampleCaptions {
+  margin-bottom: 50px;
+}
+.first-para {
+  margin-bottom: 50px;
+}
+.companies-explanation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* footer area */

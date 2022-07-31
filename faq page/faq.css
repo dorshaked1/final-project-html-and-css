@@ -1,0 +1,23 @@
+body {
+  direction: rtl;
+}
+/* header area */
+
+.logo-navbar {
+  width: 200px;
+  height: 100px;
+}
+@media only screen and (max-width: 297px) {
+  .navbar-toggler {
+    position: absolute;
+    left: -1%;
+    bottom: 1%;
+  }
+}
+
+/* main area */
+.main-head {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: pattaya, henny penny b;
+}

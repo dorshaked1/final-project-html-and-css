@@ -1,0 +1,13 @@
+body {
+  direction: rtl;
+}
+.form-part {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 297px) {
+  .navbar-toggler {
+    position: absolute;
+    left: -1%;
+    bottom: 1%;
+  }
+}

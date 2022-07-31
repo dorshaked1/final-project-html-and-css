@@ -1,0 +1,23 @@
+body {
+  direction: rtl;
+}
+.main-head {
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: pattaya, henny penny b;
+}
+p {
+  font-size: 18px;
+  font-family: roboto;
+}
+.mayor-part img {
+  width: 200px;
+  height: 200px;
+}
+@media only screen and (max-width: 297px) {
+  .navbar-toggler {
+    position: absolute;
+    left: -1%;
+    bottom: 1%;
+  }
+}
